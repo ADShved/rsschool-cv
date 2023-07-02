@@ -1,9 +1,9 @@
 # Shvedovsky Andrey 
 ## Junior Frontend Developer  
-### * Contact information:
+###  Contact information:
 **Phone:** +375 29 559 36 85  
 **Email:** Shvedovskiy1@gmail.com  
-**VK:** [shvedoww]("https://vk.com/shvedoww")  
+**VK:** [shvedoww](https://vk.com/shvedoww)  
 ## In three words about yourself:  
 Honest, decent jun.  
   
