@@ -13,3 +13,6 @@ Honest, decent jun.
 **Git, GitHub**  
 **VS Code**  
 **Adobe Photoshop**  
+## Languages:  
+**Russian - Nativ**  
+**English - A2**
