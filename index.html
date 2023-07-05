@@ -3,10 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="assets/Favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Junior Frontend Developer </h1>
+    <header class="header">
+        <div class="conteiner">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">
+                            About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            Skills </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Languages" class="nav-link">
+                            Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main main-container" id="about-me">
+        <div class="conteiner">
+            <section class="about-me section">
+                <div class="about-me__img-container">
+                    <img class="about-me__img" src="assets/Avatar.jpg" alt="avatar">
+                </div>
+                <h1 class="section-title">
+                    Hello, my name is Andrew
+                </h1>
+                <p class="sub-tittle">
+                    I am a Junior Front-end developer from Belarus.
+                    I know HTML, CSS (SASS), JS, Git, GitHub, VS Code, Adobe Photoshop and Figma.
+                    I look forward to the opportunity to work both in a team and individually.
+                    Not only do I want to deepen my knowledge, but I also want to apply it to real products.</p>
+            </section>
+            <section class="contact conteiner section" id="contact">
+                <h2 class="section-title">Contact information</h2>
+                <ul class="contact-list">
+                    <li class="contact-list__item">Phone: +375 29 559 36 85</li>
+                    <li class="contact-list__item">Email: Shvedovskiy1@gmail.com</li>
+                    <li class="contact-list__item">
+                        <a href="https://vk.com/shvedoww" class="contact-list__link">
+                            VK: shvedoww
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML5, CSS3</li>
+                    <li class="skills-item">JavaScript Basics</li>
+                    <li class="skills-item">Git, GitHub</li>
+                    <li class="skills-item">VS Code</li>
+                    <li class="skills-item">Adobe Photoshop and Figma</li>
+                </ul>
+            </section>
+            <section class="languages section" id="Languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages-list">
+                    <li class="languages-item">Russian - Nativ</li>
+                    <li class="languages-item">English - A2</li>
+                </ul>
+
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="conteiner">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="https://github.com/ADShved" class="nav-link">
+                            My git</a>
+                    </li>
+                    <li class="nav-item">
+                        06/07/2023
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://rs.school/js/" class="nav-link">
+                            <div class="rs__img-container">
+                                <img class="rs__img" src="assets/logo-rsschool3.png" alt="RS.school">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
