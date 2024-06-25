@@ -1,5 +1,3 @@
-<img src="https://github.com/Almaz0n/Progects/blob/avotar/cat.jpg"  width="200" width="200">
-
 # Shvedovsky Andrey
 
 ## Contacts
@@ -72,3 +70,10 @@ I am 28 years old, married, have a driver's license and two children, studying E
 </body>
 </html>
 ```
+## Education
+Higher education, Pedagogical
+    
+## Languages
+* Russian - fluent
+* English – A1 (B2 in progress...)
+* Belarusian – native speaker 
