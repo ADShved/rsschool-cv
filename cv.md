@@ -5,14 +5,14 @@
 
 ---
 
-### 🚀 О себе
-Целеустремленный начинающий разработчик с акцентом на написание чистого и поддерживаемого кода. Мой приоритет — постоянное развитие и глубокое погружение в технологии. Быстро осваиваю новые инструменты, умею работать с документацией и стремлюсь внести вклад в создание качественных программных продуктов.
+### 🚀 About me
+A dedicated beginner developer with a focus on writing clean and maintainable code. My priority is continuous development and deep immersion in technology. I am quick to learn new tools, have a good understanding of documentation, and strive to contribute to the creation of high-quality software products.
 
-### 🛠 Навыки
-*   **Языки:** JavaScript (ES6+), HTML5, CSS3/SASS.
-*   **Инструменты:** **Git**, GitHub, VS Code, npm/yarn.
-*   **Методологии:** БЭМ, основы Agile/Scrum.
-*   **Системы контроля версий:** Свободное владение Git (Conventional Commits, Branching).
+### 🛠 Skills
+*   **Languages:** JavaScript (ES6+), HTML5, CSS3/SASS.
+*   **Tools:** **Git**, GitHub, VS Code, npm/yarn.
+*   **Methodologies:** BEM, the basics Agile/Scrum.
+*   **Version control systems:** Free ownership Git (Conventional Commits, Branching).
 
 ### 💻 Примеры кода и проекты
 *   **[Название проекта 1]** — [Краткое описание, например: "Приложение для учета задач"].
