@@ -3,11 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Andrey Shvedovsky</title>
+    <title>CV | Andrey Shvedovsky</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
 </head>
 <body>
-    <h1>Andrey Shvedovsky</h1>
-    <p>**Junior Frontend/Fullstack Developer**</p>
+
+    <header class="header">
+        <div class="container header-content">
+            <!-- Требование: фото с alt и без искажений -->
+            <img src="you.jpg" alt="Andrey Shvedovsky Avatar" class="avatar">
+            <div class="header-text">
+                <h1>Andrey Shvedovsky</h1>
+                <p class="role">Junior Frontend/Fullstack Developer</p>
+            </div>
+            <!-- Требование: семантический nav -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Требование: использование h2 -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>A dedicated beginner developer with a focus on writing clean and maintainable code. Strive to contribute to the creation of high-quality software products and continuous deep immersion in technology.</p>
+        </section>
+
+        <section id="contacts">
+            <h2>Contact Information</h2>
+            <!-- Требование: списки ul > li -->
+            <ul>
+                <li>Location: Gomel, Belarus</li>
+                <li>Phone: <a href="tel:+375295593385">+375 29 559 3385</a></li>
+                <li>Email: <a href="mailto:Shvedovskiy1@gmail.com">Shvedovskiy1@gmail.com</a></li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript (ES6+), HTML5, CSS3/SASS</li>
+                <li>Git, GitHub, VS Code, npm/yarn</li>
+                <li>BEM, Agile/Scrum</li>
+                <li>Conventional Commits</li>
+            </ul>
+        </section>
+
+        <!-- Требование: пример кода текстом -->
+        <section id="code">
+            <h2>Code Example</h2>
+            <pre><code>
+function findMax(arr) {
+  return Math.max(...arr);
+}
+console.log(findMax([1, 5, 10, 3])); // Output: 10
+            </code></pre>
+        </section>
+
+        <section id="projects">
+            <h2>Educational Projects</h2>
+            <ul>
+                <li><a href="https://github.com" target="_blank">RSSchool Tasks</a> — Collection of coding assignments.</li>
+                <li><a href="#" target="_blank">Personal Portfolio</a> — Static CV website.</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education & Languages</h2>
+            <p><strong>University:</strong> Self-taught / Training Practice (2026)</p>
+            <p><strong>English:</strong> A2 - Elementary (Can read documentation fluently)</p>
+        </section>
+    </main>
+
+    <!-- Требование: футер с GitHub, годом, логотипом и ссылкой на курс -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 <a href="https://github.com" target="_blank">Andrey Shvedovsky</a></p>
+            <a href="https://rs.school" target="_blank">
+                <img src="https://rs.school" alt="RS School Logo" class="rs-logo">
+            </a>
+            <p><a href="https://rs.school" target="_blank"> RS School Course</a></p>
+        </div>
+    </footer>
+
 </body>
 </html>
